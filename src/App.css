@@ -1,0 +1,71 @@
+body{
+  background: hsl(36, 100%, 99%) !important;
+  font-weight: 400 !important;
+}
+
+.one p{
+  border-bottom: solid   hsl(233, 8%, 79%) 1px !important;
+  padding-bottom: 50px !important;
+}
+
+.two p{
+  border-bottom: solid   hsl(233, 8%, 79%) 1px !important;
+  padding-bottom: 50px !important;
+}
+.fontw{
+  font-weight: 700 !important;
+}
+.offcanvas{
+  width: 70vw !important;
+}
+.curt{
+  cursor: pointer;
+}
+
+.curt:hover{
+ color:  hsl(5, 85%, 63%) !important;
+}
+.cur{
+  cursor: pointer;
+}
+.cur:hover{
+  cursor: pointer !important;
+  color: hsl(35, 77%, 62%) !important
+}
+
+.redd:hover{
+  color: hsl(5, 85%, 63%) !important;
+  
+}
+.orange{
+  color: hsl(35, 77%, 62%) !important;
+}
+
+.red:hover{
+  background:  hsl(240, 100%, 5%) !important;
+  color: hsl(36, 100%, 99%) !important;
+  border-color:  hsl(240, 100%, 5%) !important;
+}
+
+.blue{
+  background:  hsl(240, 100%, 5%) !important;
+}
+
+.gblue{
+  color: hsl(233, 8%, 79%) !important;
+}
+
+.offwhite{
+  color: hsl(36, 100%, 99%);
+}
+
+.hov{
+  background: hsl(5, 85%, 63%) !important;
+  border-color: hsl(5, 85%, 63%) !important;
+  
+}
+
+p{
+  font-size : 15px !important ;
+};
+
