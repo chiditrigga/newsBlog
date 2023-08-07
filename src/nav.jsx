@@ -72,7 +72,7 @@ const Navv = () => {
                 </Col>
                 <Col className='gblue mt-3 mt-md-0 '  md={4}>
                     <div className="one blue px-2 pe-lg-5 ps-lg-4 py-3 p-md-2">
-                        <h1 className='orange py-3'>New</h1>
+                        <h1 className='orange py-3'>Neww</h1>
                  <h3 className='offwhite cur'>Hydrogen Vs Electric Cars</h3> 
                 <p>Will hydrogen-fueled cars ever catch up to EVs?</p> 
                 
