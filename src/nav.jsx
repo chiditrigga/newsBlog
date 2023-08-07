@@ -60,10 +60,10 @@ const Navv = () => {
         <Container >
 
              <Row >
-                <Col md={8}>
+                <Col  md={8}>
                 <Image fluid src={desk}  className='d-none d-sm-block'/> <Image fluid className='d-block d-sm-none' src={mobile} />
-                <Row className='mt-sm-2 gy-md-4'>
-                    <Col style={{fontSize:'40px', fontWeight:'800'}} lg={5}>The Bright Future Of Web 3.0?</Col>
+                <Row className='mt-sm-2 gy-md-4 '>
+                    <Col style={{fontSize:'40px', fontWeight:'800'}} lg={5} >The Bright Future Of Web 3.0?</Col>
                     <Col className='ps-lg-5 ps-3   ' lg={7}>We dive into the next evolution of web that claims to put the power of the platform back into the hands of the people.But is it really fulfilling its promise? <br />
                     <br />
                      <Button className=' red hov py-md-3 px-md-5 py-2 px-3 '>READ MORE</Button>
@@ -93,29 +93,29 @@ const Navv = () => {
                 
                 </Col>
             </Row>
-            <Row className=' pt-xl-5 pt-3'>
-                <Col  md={4}>
+            <Row className=' pt-xl-5 mt-5 mt-md-3 pb-2'>
+                <Col  className='px-xl-4  mb-4' md={4}>
                     <Row>
-                        <Col  xs={4} sm={4}  md={4}> <Image className='h-75' src={retro} fluid /></Col>
-                        <Col xs={8} sm={8}  md={8}> <p className='fs-1'>01</p> <h4 className='curt'> Retriving Retro PCs </h4>
-                        <p>  What happens when old PCs are given modern upgrades?</p>
+                        <Col  xs={5} sm={4}  md={12} lg={6}> <Image className='h-100 w-100' src={retro} fluid /></Col>
+                        <Col className='d-flex align-items-center' xs={7} sm={8}  md={12} lg={6}> <span><h2>01</h2> <h4 className='curt'> Retriving Retro PCs </h4>
+                        <p>  What happens when old PCs are given modern upgrades?</p></span> 
                         </Col>
                     </Row>
                     
                      </Col>
-                <Col md={4}>
-                <Row>
-                        <Col  xs={4} sm={4}  md={4}><Image src={laptop} className='h-75' fluid /></Col>
-                        <Col xs={8} sm={8}  md={8}><h1>02</h1> <h4 className='curt'>Top 10 Laptops of 2022</h4> <p>Our best picks for various needs and budgets.</p></Col>
+                <Col  className='px-xl-4 mb-4 ' md={4}>
+                <Row  >
+                        <Col  xs={5} sm={4}  md={12} lg={6}><Image src={laptop} className='h-100 w-100' fluid /></Col>
+                        <Col  className='d-flex align-items-center ' xs={7} sm={8}  md={12} lg={6}> <span> <h2>02</h2> <h4 className='curt'>Top 10 Laptops of 2022</h4> <p>Our best picks for various needs and budgets.</p></span></Col>
                     </Row>
                     
                     
                      </Col>
-                <Col md={4}>
-                <Row >
-                        <Col xs={4} sm={4}  md={4} >  <Image className='h-75 ' src={gaming} fluid/></Col>
-                        <Col  xs={8} sm={8}  md={8} ><h1>03</h1> <h4 className='curt'>The Growth Of Gaming</h4> 
-                        <p>How the pandemic has sparked fresh opportunites.</p>
+                <Col className='px-xl-4 mb-4' md={4}>
+                <Row  >
+                        <Col xs={5} sm={4}  md={12} lg={6}>  <Image className='h-100 w-100' src={gaming} fluid/></Col>
+                        <Col className='d-flex align-items-center' xs={7} sm={8}  md={12} lg={6} > <span><h2>03</h2> <h4 className='curt'>The Growth Of Gaming</h4> 
+                        <p>How the pandemic has sparked fresh opportunites.</p></span>
                         </Col>
                     </Row>
                     
